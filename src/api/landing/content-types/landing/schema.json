@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landings",
+  "info": {
+    "singularName": "landing",
+    "pluralName": "landings",
+    "displayName": "Landing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "landing_girl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "dark_circle": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
